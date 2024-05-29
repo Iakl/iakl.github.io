@@ -60,3 +60,16 @@
     background-color: yellow;
 }
 
+#about-me {
+    margin-right: 200px;
+}
+
+.small-logo {
+    width: 400px;  /* Ajusta este valor según tus necesidades */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+    margin-bottom: 40px;
+}
+
+.justified-text {
+    text-align: justify;
+}
