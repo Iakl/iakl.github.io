@@ -60,16 +60,23 @@
     background-color: yellow;
 }
 
-#about-me {
-    margin-right: 200px;
-}
-
 .small-logo {
     width: 400px;  /* Ajusta este valor según tus necesidades */
     height: auto; /* Esto mantiene la proporción de la imagen */
     margin-bottom: 40px;
 }
 
+.cired-logo {
+    max-width: 100%;
+    height: auto;
+}
+
 .justified-text {
     text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    #about-me .profile-pic-main {
+        display: none;
+    }
 }
