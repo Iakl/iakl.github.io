@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Iakl</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/navbar.html");
+        });
+    </script>
+    <!--end of Navigation bar -->
+
+    <main class="container">
+        <section>
+            <h2>Articles</h2>
+
+            <h3>Tools for Industry; Flexibility services provision to Aggregators</h3>
+
+            <h5>Status</h5>
+            <p>Work in progress</p>
+
+            <h5>Abstract</h5>
+            <p class="justified-text">Flexibility plays a key role in the energy transition, particularly in the context of
+                integrating distributed energy resources. With the emergence of prosumers, actors who
+                consume and produce energy, and aggregators, actors who group prosumers to provide
+                services as a whole, novel markets for flexibility are rapidly evolving. Understanding the
+                frameworks that govern the trade and the measurement of flexibility is paramount. This
+                paper presents a general overview of current research on flexibility applied to long-term
+                strategic planning and immediate provisioning, particularly in the form of ancillary ser-
+                vices for system operators. A synopsis of diverse flexibility services is provided, alongside
+                a projection of future market structures and the procedural workflow associated with flex-
+                ibility requests. Additionally, we offer practical tools tailored for aggregators to effectively
+                assess the available flexibility within their clusters of prosumer clients. These tools enable
+                informed economic decision making for day-to-day planning and real-time delivery of
+                ancillary services to system operators, thus advancing the integration of distributed energy
+                resources into the energy landscape.</p>
+
+            <!-- <h5>Keywords</h5>
+            <p><strong>DISTRIBUTED OPTIMIZATION, ENERGY COMMUNITIES, FLEXIBILITY, DATA PRIVACY, ECONOMIC DISPATCH, OPTIMAL CONTROL, AUXILIARY PROBLEM PRINCIPLE</strong></p> -->
+
+            <!-- <h5>Authors</h5>
+            <ul>
+                <li>Esteban Gonzalez Iakl<sup>1</sup></li>
+                <li>Paula Muñoz-Peña<sup>1</sup></li>
+                <li>Oriol Gomis-Bellmunt<sup>1</sup></li>
+                <li>Eduardo Prieto-Araujo<sup>1</sup></li>
+                <li>Aleix Señís<sup>2</sup></li>
+                <li>Marina Fajardo<sup>2</sup></li>
+            </ul> -->
+            <!-- <p><sup>1</sup> Centre d’Innovació Tecnològica en Convertidors Estàtics i Accionaments, Universitat Politècnica de Catalunya, Barcelona, Spain</p>
+            <p><sup>2</sup> Digital Energy and Power, Solutions Architects, Schneider Electric, Barcelona, Spain</p>
+
+ -->
+            <hr style="border: none; border-top: 2px solid #ccc; height: 1px; margin: 10px 0;">
+            <h3>Service integrated centralized microgrid controller</h3>
+
+            <h5>Status</h5>
+            <p>Work in progress</p>
+
+            <h5>Abstract</h5>
+            <p class="justified-text">This work presents a detailed technical description and performance analysis of a centralized microgrid controller, composed of two control layers; An Energy Management System (EMS) as the secondary control layer, and a Power Management System (PMS) as the primary control layer. The EMS described is a rule-based controller that provides the reference active power consumption from the utility grid to the PMS, which in turn controls the microgrid components through two PI-based modules; an Active Power Controller (APC) and a Reactive Power Controller (RPC). The PMS serves as a centralized real-time controller designed to ensure stable and efficient operation of microgrids under various conditions. This document outlines control algorithms implemented in MATLAB Simulink, including the PI structures and anti-windup mechanisms. Two main scenarios are examined: continuous tracking of active power and avoidance of injection to the AC grid. Through simulations, the controller's ability to manage distributed energy resources (DERs), respond to load disturbances, and maintain voltage stability is demonstrated. Results show that the proposed controller effectively balances power generation and consumption, meeting setpoint requirements and operational constraints. Overall, this document provides valuable insights into the functionality and performance of the microgrid controller, showcasing its suitability for real-world microgrid applications. </p>
+            
+            <hr style="border: none; border-top: 2px solid #ccc; height: 1px; margin: 10px 0;">
+            <h3>Distributed optimization in energy communities: a focus on flexibility provision</h3>
+
+            <h5>Status</h5>
+            <p><a href="cired.html">Accepted in CIRED</a> </p>
+
+            <h5>Abstract</h5>
+            <p class="justified-text">The emergence of energy communities (ECs) as new stakeholders in modern electrical grids presents an opportunity to address the challenges associated with integrating distributed energy resources, such as increased uncertainty and variability in generation, transmission grid saturation, or diminished power quality, among others. The ability of an EC to provide flexibility is therefore paramount. However, data privacy and investment costs are the main drawbacks to achieving optimal operation. This paper proposes a distributed optimization framework designed for the economic dispatch (ED) of ECs, employing the auxiliary problem principle (APP) decomposition technique. The primary focus is to study the effects of flexibility provision in real-time control while addressing data privacy concerns and minimizing communication infrastructure investments. The proposed algorithm is tested in a case study, providing insights into the selection of the control parameters of the APP framework to improve the convergence properties.
+            </p>
+
+            <hr style="border: none; border-top: 2px solid #ccc; height: 1px; margin: 10px 0;">
+            <h3>Optimal Power Flow strategies for energy systems control</h3>
+
+            <h5>Status</h5>
+            <p>Work in progress</p>
+
+            <h5>Summary</h5>
+            <p class="justified-text">The optimal operation of a power system can be achieved by solving a Mixed 
+                Integer Nonlinear optimization problem, composed of discrete variables and non-linear
+                functions. In this work we present a Real-Time Energy Management System (RT-EMS)
+                that has been developed to operate a power system close to real-time by solving a relaxed
+                version of the MINLP problem.</p>
+            
+            <hr style="border: none; border-top: 2px solid #ccc; height: 1px; margin: 10px 0;">
+            <h3>A recipe for real-time control of Microgrids</h3>
+
+            <h5>Status</h5>
+            <p>Work in progress</p>
+
+            <h5>Summary</h5>
+            <p class="justified-text">Explores real-time control with optimal power flow (RT-OPF) in microgrid
+                systems, introducing the application of sequential quadratic programming (SQP) as
+                a mathematical tool for addressing complex control challenges in real-time scenarios.
+                The article emphasizes an online feedback optimization approach, advocating for the
+                continuous adaptation of control decisions based on real-time data to ensure optimal
+                microgrid performance under changing conditions. Through a detailed and step-by-step
+                presentation, it provides the formulation of the optimization problem and outlines the
+                algorithm for implementing RT-OPF in microgrids, making it a valuable resource for
+                individuals interested in efficient real-time control strategies for microgrids.</p>
+            
+            <hr style="border: none; border-top: 2px solid #ccc; height: 1px; margin: 10px 0;">
+            <h3>Leveraging Flexibility in Multi-Energy Systems; An Energy Management design</h3>
+
+            <h5>Status</h5>
+            <p>Work in progress</p>
+
+            <h5>Summary</h5>
+            <p class="justified-text">Energy Management Systems (EMSs) utilize industrial flexibility to bolster
+                grid stability and reliability, advancing broader sustainability goals through the seamless
+                integration of renewable energy sources (RES). In Multi-Energy Systems (MES), encom-
+                passing electricity, heat, or hydrogen, flexibility is augmented via their adaptable energy
+                provision capabilities, facilitated by multi-generation setups, controllable multi-energy
+                loads, diverse aggregation levels, and participation in various power exchange markets.
+                This work presents a Multi-Energy Management System design based on planning horizon
+                optimization, empowering industries to actively engage in ensuring power system stability.</p>
+            
+                
+
+        </section>
+    </main>
+
+    <footer class="bg-light">
+        <div class="container-fluid d-flex">
+            <div class="d-flex align-items-center">
+                <a href="index.html">
+                    <button class="btn btn-primary" style="white-space: nowrap;">Contact me</button>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center w-100">
+                <div class="mx-auto">
+                    <p class="text-center text-muted">&copy; 2024 Esteban González Iakl</p>
+                    <img src="/img/losa.gif" alt="Losa GIF" class="img-fluid mx-auto d-block" style="width: 64px; height: 64px;">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
