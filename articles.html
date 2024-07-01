@@ -11,7 +11,15 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8NHW884SJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-V8NHW884SJ');
+</script>
 <body>
     <!-- Navigation bar-->
     <div id="nav-placeholder">
@@ -76,10 +84,10 @@
             <p class="justified-text">This work presents a detailed technical description and performance analysis of a centralized microgrid controller, composed of two control layers; An Energy Management System (EMS) as the secondary control layer, and a Power Management System (PMS) as the primary control layer. The EMS described is a rule-based controller that provides the reference active power consumption from the utility grid to the PMS, which in turn controls the microgrid components through two PI-based modules; an Active Power Controller (APC) and a Reactive Power Controller (RPC). The PMS serves as a centralized real-time controller designed to ensure stable and efficient operation of microgrids under various conditions. This document outlines control algorithms implemented in MATLAB Simulink, including the PI structures and anti-windup mechanisms. Two main scenarios are examined: continuous tracking of active power and avoidance of injection to the AC grid. Through simulations, the controller's ability to manage distributed energy resources (DERs), respond to load disturbances, and maintain voltage stability is demonstrated. Results show that the proposed controller effectively balances power generation and consumption, meeting setpoint requirements and operational constraints. Overall, this document provides valuable insights into the functionality and performance of the microgrid controller, showcasing its suitability for real-world microgrid applications. </p>
             
             <hr style="border: none; border-top: 2px solid #ccc; height: 1px; margin: 10px 0;">
-            <h3>Distributed optimization in energy communities: a focus on flexibility provision</h3>
+            <h3>Distributed optimization in energy communities: A focus on flexibility provision</h3>
 
             <h5>Status</h5>
-            <p><a href="cired.html">Accepted in CIRED</a> </p>
+            <p><a href="cired.html">Presented in CIRED</a> </p>
 
             <h5>Abstract</h5>
             <p class="justified-text">The emergence of energy communities (ECs) as new stakeholders in modern electrical grids presents an opportunity to address the challenges associated with integrating distributed energy resources, such as increased uncertainty and variability in generation, transmission grid saturation, or diminished power quality, among others. The ability of an EC to provide flexibility is therefore paramount. However, data privacy and investment costs are the main drawbacks to achieving optimal operation. This paper proposes a distributed optimization framework designed for the economic dispatch (ED) of ECs, employing the auxiliary problem principle (APP) decomposition technique. The primary focus is to study the effects of flexibility provision in real-time control while addressing data privacy concerns and minimizing communication infrastructure investments. The proposed algorithm is tested in a case study, providing insights into the selection of the control parameters of the APP framework to improve the convergence properties.
